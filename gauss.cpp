@@ -7,7 +7,7 @@
 #define File
 using namespace std;
 
-void showArray(double **const &syst, const int &rows, const int &cols)
+void show_array(double **const &syst, const int &rows, const int &cols)
 {
 	for (int i = 0; i < rows; i++)
 	{
@@ -257,14 +257,14 @@ int main()
 
 
 #ifdef See
-	showArray(syst, rows, cols);
+	show_array(syst, rows, cols);
 	cout << endl;
 #endif // See
 
 	push_back(syst, rows, cols, b);
 
 #ifdef See
-	showArray(syst, rows, cols);
+	show_array(syst, rows, cols);
 	cout << endl;
 #endif // See
 
